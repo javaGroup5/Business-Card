@@ -1,0 +1,113 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.info {
+  background-color: #1a1b21;
+  width: 317px;
+  padding-bottom: 2rem;
+}
+.profile-photo {
+  width: 317px;
+  /* height: 317px; */
+  /* border-radius: 10px 10px 0px 0px; */
+  background: lightgray;
+}
+.name {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.profession {
+  color: #f3bf99;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.website a {
+  text-decoration: none;
+  color: #f5f5f5;
+  text-align: center;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */
+}
+.profile-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.email {
+  color: var(--gray-700, #374151);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--white, #fff);
+
+  /* shadow/sm */
+
+  cursor: pointer;
+
+  /* font-size: 15px; */
+  /* font-weight: bold; */
+
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #cdcecf;
+}
+.email:hover {
+  background-color: #e2dcdc;
+}
+.email:active {
+  position: relative;
+  top: 1px;
+}
+
+.linkedin {
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  display: flex;
+  width: 115px;
+  padding: 9px 13px 9px 11px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  background: #5093e2;
+
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  text-decoration: none;
+  /* text-shadow: 0px -1px 0px #2b665e; */
+}
+.linkedin:hover {
+  background-color: #599ce9;
+}
+.linkedin:active {
+  position: relative;
+  top: 1px;
+}
