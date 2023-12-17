@@ -4,3 +4,37 @@
   padding: 2rem;
   text-align: center;
 }
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+html {
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 550px;
+  background: #23252c;
+  padding-top: 3rem;
+
+  /* Add other styles for the container as needed */
+}
+
+/* div {
+  display: flex;
+  flex-direction: column;
+
+  align-items: normal;
+  width: 550px;
+  /* height: 868px; */
+/* padding: 14px; */
+/* justify-content: center;
+  /* align-items: center; */
+/* background: #23252c;
+} */
