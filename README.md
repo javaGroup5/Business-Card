@@ -1,3 +1,5 @@
+![Business Card App](./src/assets/images/card.PNG) 
+
 # Business Card Project
 
 This project is a simple business card application built using React and Vite. It showcases information about the user, providing sections for personal details, an about me section, interests, and a footer.
