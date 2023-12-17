@@ -13,14 +13,25 @@ export default function Info() {
       <p className="name">Aminu Yiwere</p>
       <p className="profession">Frontend Developer</p>
       <p className="website">
-        <a href="www.amin.com">yiwereamin.com</a>
+        <a
+          href="https://yiwereamin.wixsite.com/my-site-1"
+          target="_blank"
+          rel="noreferrer"
+        >
+          My Portfolio
+        </a>
       </p>
       <div className="profile-socials">
-        <a href="#" className="email">
+        <a href="mailto:yiwereamin@gmail.com" className="email">
           <FontAwesomeIcon icon={faEnvelope} />
           Email
         </a>
-        <a href="#" className="linkedin">
+        <a
+          href="https://www.linkedin.com/aminu-yiwere"
+          target="_blank"
+          rel="noreferrer"
+          className="linkedin"
+        >
           <FontAwesomeIcon icon={faLinkedin} />
           LinkedIn
         </a>
