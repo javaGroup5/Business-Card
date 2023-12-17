@@ -83,4 +83,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any questions or feedback, feel free to reach out to [Your Name](mailto:yiwereamin@gmail.com).
+For any questions or feedback, feel free to reach out to [Aminu Yiwere(mailto:yiwereamin@gmail.com).
